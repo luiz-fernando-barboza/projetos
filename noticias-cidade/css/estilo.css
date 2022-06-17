@@ -1,0 +1,81 @@
+/*Zerando formatações padrões*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*Formatações gerais*/
+
+body {
+	font-family: "Trebuchet MS", "Helvetica", sans-serif;
+	background: #fff url(../imagens/fundo.png) repeat-x;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/*Estrutura do site*/
+
+#container {
+	width: 750px;
+	margin: 0 auto;
+}
+
+/*Formatações do menu*/
+
+#topo {
+	height: 150px;
+	background: url(../imagens/detalhe-topo.png) no-repeat top right;
+	padding-top: 25px;
+}
+
+#topo ul {
+	background: #b10333;
+	margin-top: 30px;
+	float: left;
+}
+
+#topo ul li {
+	float: left;
+}
+
+#topo ul a {
+	font-size: 0.9em;
+	display: block;
+	padding: 0.5em 1.5em;
+	line-height: 2.1em;
+	color: #fff;
+	text-decoration: none;
+	background: url(../imagens/divisor.png) no-repeat left center;
+}
+
+#topo ul a.primeiro {
+	background: none;
+}
+
+#topo ul a:hover {
+	color: #780000;
+}
+
+body.home #navegacao #home,
+body.internacional #navegacao #internacional,
+body.brasil #navegacao #brasil,
+body.economia #navegacao #economia,
+body.ciencia #navegacao #ciencia,
+body.saude #navegacao #saude,
+body.fotos #navegacao #fotos {
+	color: #fff;
+	background: #e61b44;
+	cursor: text;
+}
+
+.logo {
+	width: 152px;
+	height: 66px;
+	background: url(../imagens/logo.png) no-repeat;
+	text-indent: -3000px;
+}
