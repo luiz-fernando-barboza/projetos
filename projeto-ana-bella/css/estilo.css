@@ -1,0 +1,49 @@
+/*Formatações gerais*/
+
+body {
+	background: #d2d2c0 url(../imagens/fundo.png);
+	font: 16px Arial, Helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #333d29;
+	font-weight: bold;
+	padding: 10px;
+}
+
+h1 {
+	color: #656d4a;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+
+/*Estrutura do site*/
+
+#principal {
+	width: 900px;
+	margin: auto;
+}
+
+#menu {
+	background: #a5a58d;
+	padding: 15px;
+	text-align: center;
+}
+
+#conteudo {
+	background: #e9edc9;
+	padding: 10px;
+}
+
+#rodape {
+	text-align: center;
+}
+
+/*Formatações específicas*/
+
+.img-campanhas {
+	border: 15px ridge #a4ac86;
+	margin-left: 100px;
+}
