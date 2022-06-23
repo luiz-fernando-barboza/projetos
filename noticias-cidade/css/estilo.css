@@ -25,6 +25,26 @@ h2 {
 	color: #fff;
 }
 
+label {
+	display: block;
+}
+
+input {
+	margin-bottom: 5px;
+	padding: 5px;
+	width: 125px;
+	font-size: 0.9em;
+	background: #fff;
+}
+
+input.submit {
+	width: 80px;
+	color: #fff;
+	background-color: #b10333;
+	border: 2px solid #870529;
+	cursor: pointer;
+}
+
 #container {
 	width: 750px;
 	margin: 0 auto;
@@ -138,4 +158,22 @@ body.fotos #navegacao #fotos {
 	background: #294c71;
 	color: #fff;
 	padding: 20px;
+}
+
+/*Formatações do menu lateral*/
+
+#conteudo-lateral ul a {
+	display: block;
+	font-size: 0.9em;
+	padding: 3px;
+	line-height: 30px;
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+#conteudo-lateral ul a:hover {
+	background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+	padding-left: 25px;
+	color: #a1a1a1;
 }
