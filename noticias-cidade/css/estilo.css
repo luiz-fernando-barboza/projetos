@@ -25,6 +25,13 @@ h2 {
 	color: #fff;
 }
 
+h3 {
+	font-size: 0.8em;
+	display: inline;
+	padding: 3px;
+	text-transform: uppercase;
+}
+
 label {
 	display: block;
 }
@@ -43,6 +50,12 @@ input.submit {
 	background-color: #b10333;
 	border: 2px solid #870529;
 	cursor: pointer;
+}
+
+img {
+	margin-top: 5px;
+	width: 98%;
+	border: 2px solid #dfdfdf;
 }
 
 #container {
@@ -133,7 +146,7 @@ body.fotos #navegacao #fotos {
 	margin: 0px 0px 20px 195px;
 }
 
-#uma-colunas #conteudo-primario {
+#uma-coluna #conteudo-primario {
 	width: 750px;
 	float: left;
 	margin: 0px 0px 20px 0px;
@@ -158,6 +171,11 @@ body.fotos #navegacao #fotos {
 	background: #294c71;
 	color: #fff;
 	padding: 20px;
+}
+
+.destaque h3 {
+	color: #fff;
+	background-color: #b10333;
 }
 
 /*Formatações do menu lateral*/
