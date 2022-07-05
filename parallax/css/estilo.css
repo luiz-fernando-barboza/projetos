@@ -1,0 +1,33 @@
+/*Configurando formatações padrões*/
+
+html, body {
+	font: 16px "Lato", sans-serif;
+	margin: 0;
+	height: 100%;
+}
+
+h3 {
+	color: #111;
+	text-align: center;
+}
+
+.conteudo {
+	color: #777;
+	padding: 50px 80px;
+	text-align: justify;
+}
+
+/*Efeito Parallax*/
+
+.caixa1, .caixa2 {
+	border: 1px solid red;
+	height: 100%;
+}
+
+.caixa1 {
+	background-image: url(../imagens/imagem1.jpg);
+}
+
+.caixa2 {
+	background-image: url(../imagens/imagem2.jpg);
+}
