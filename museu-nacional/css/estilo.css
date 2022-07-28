@@ -16,7 +16,7 @@ a:link, a:active, a:visited {
 }
 
 a:hover {
-	color: #fff;
+	color: #227115;
 }
 
 /* Logo
@@ -68,7 +68,7 @@ nav ul li a:hover {
 #conteudo {
 	width: 710px;
 	float: left;
-	background: green;
+	margin-bottom: 20px;
 }
 
 aside {
@@ -76,12 +76,18 @@ aside {
 	float: right;
 	background: #ebe7dd;
 	padding-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 section#visita {
 	background: #cdc8b1;
 	padding: 10px 27px 27px 27px;
 	margin-top: 10px;
+}
+
+ul.texto-link a:hover {
+	color: #af670a;
+	text-decoration: underline;
 }
 
 /* Galeria de Fotos
@@ -102,6 +108,37 @@ section#galeria a {
 section#galeria img {
 	margin-left: 2px;
 	margin-top: 3px;
+}
+
+article#video {
+	float: left;
+	width: 310px;
+	margin-left: 25px;
+}
+
+article#mapa {
+	float: left;
+	width: 310px;
+	margin-left: 37px;
+}
+
+article#exposicoes {
+	float: left;
+	width: 310px;
+	margin: 15px 0 0 25px;
+}
+
+article#historia {
+	float: left;
+	width: 310px;
+	margin: 15px 0 0 37px;
+}
+
+h3 {
+	color: #227115;
+	font-size: 1.0em;
+	margin-bottom: 15px;
+	text-transform: uppercase;
 }
 
 h4 {
@@ -140,4 +177,18 @@ fieldset {
 
 legend {
 	display: none;
+}
+
+/*  Rodapé
+------------------*/
+
+footer {
+	clear: both;
+	padding: 20px 0 30px 0;
+	text-align: center;
+	background: url(../imagens/fundo-rodape.png) no-repeat center top;
+}
+
+footer>p a {
+	padding: 2px 10px;
 }
