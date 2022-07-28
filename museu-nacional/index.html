@@ -7,9 +7,6 @@
 		<!-- Estilo customizado -->
 		<link rel="stylesheet" type="text/css" href="css/estilo.css">
 
-		<!-- Normalize CSS -->
-		<link rel="stylesheet" type="text/css" href="css/normalize.css">
-
 		<!-- HTML5 Shiv -->
 		<!--[if lt IE 9]>
 			<script src="js/html5shiv.js"></script>
@@ -34,6 +31,60 @@
 					</ul>
 				</nav><!-- fim nav -->
 			</header><!-- fim header -->
+
+			<div id="principal"><!-- início principal -->
+				
+				<div id="conteudo"><!-- início conteúdo -->
+					<section id="capa">
+						<img src="imagens/museu.png">
+					</section><!-- fim conteúdo -->
+				</div>
+
+				<aside><!-- início aside -->
+					<section id="depoimento">
+						<img src="imagens/depoimento.png">
+					</section>
+
+					<section id="visita"><!-- início visita -->
+						<h4>Faça uma visita</h4>
+						<form>
+
+							<fieldset>
+								<legend>Selecione uma data</legend>
+								<label for="data">Data</label>
+								<input class="campo" type="text" id="data" placeholder="dd/mm/aaaa">
+
+								<label for="qtd">Qtde pessoas</label>
+								<input class="campo" style="width: 30px;" type="text" id="qtd" placeholder="1">
+							</fieldset>
+
+							<input class="botao" type="submit" value="Verificar disponibilidade">
+						</form>
+					</section><!-- fim visita -->
+
+					<section id="galeria">
+						
+						<h4>Galeria de Fotos</h4>
+						
+						<a href="">
+							<img src="imagens/imagem1.jpg" height="93px" width="93px">
+						</a>
+						<a href="">
+							<img src="imagens/imagem2.jpg" height="93px" width="93px">
+						</a>
+						<a href="">
+							<img src="imagens/imagem3.jpg" height="93px" width="93px">
+						</a>
+						<a href="">
+							<img src="imagens/imagem4.jpg" height="93px" width="93px">
+						</a>
+
+					</section>
+
+				</aside><!-- fim aside -->
+
+			</div><!-- fim principal -->
+
 		</div><!-- fim container -->
 
 	</body>
