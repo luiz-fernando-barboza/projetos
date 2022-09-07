@@ -1,0 +1,10 @@
+/*Layout
+-------------------------*/
+
+body {
+	background: url(../imagens/capa.png),
+				url(../imagens/ruido.png),
+				linear-gradient(50deg, #ff4169, #7c2648);
+	background-attachment: fixed;
+}
+
